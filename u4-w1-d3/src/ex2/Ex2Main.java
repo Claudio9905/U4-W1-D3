@@ -21,9 +21,11 @@ public class Ex2Main {
         Chiamata cliente1Call = new Chiamata(numTelefono, durataCall);
 
         cliente1.setCreditoDisponibile(credito);
+        for (int i = 0; i < 5; i++){
+        cliente1.setChiamate(new Chiamata[]{cliente1Call});
+        }
 
-
-        cliente1.stampaDatiSim();
+        System.out.println(cliente1);
 
 
     }

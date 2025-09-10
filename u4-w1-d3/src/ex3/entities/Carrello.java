@@ -23,10 +23,10 @@ public class Carrello {
 
     @Override
     public String toString() {
-        return "Carrello{" +
+        return "Carrello: { " +
                 "clienteAssociato=" + clienteAssociato +
                 "elencoArticoli=" + Arrays.toString(elencoArticoli) +
                 "\n totCostoArticoli=" + totCostoArticoli +
-                '}' + "\n";
+                " }" + "\n";
     }
 }

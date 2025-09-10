@@ -11,4 +11,13 @@ public class Chiamata {
         this.durata = durata;
     }
 
+    //Metodi
+
+    @Override
+    public String toString() {
+        return "Chiamata: " +
+                "numChiamato=" + numChiamato +
+                ", durata=" + durata +
+                " m";
+    }
 }
