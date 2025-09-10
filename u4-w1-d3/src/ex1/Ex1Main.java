@@ -9,7 +9,7 @@ import static ex1.entities.Rettangolo.stampaDueRettangoli;
 public class Ex1Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+
         System.out.println("Inserisci l'altezza del primo rettangolo: ");
         double alt1 = scanner.nextDouble();
         System.out.println("Inserisci la larghezza del primo rettangolo: ");

@@ -2,11 +2,11 @@ package ex2.entities;
 
 public class Chiamata {
     // Attributi
-    private int numChiamato;
+    private String numChiamato;
     private int durata;
 
     //Costruttori
-    public Chiamata(int numChiamato, int durata){
+    public Chiamata(String numChiamato, int durata){
         this.numChiamato = numChiamato;
         this.durata = durata;
     }
@@ -15,9 +15,9 @@ public class Chiamata {
 
     @Override
     public String toString() {
-        return "Chiamata: " +
-                "numChiamato=" + numChiamato +
-                ", durata=" + durata +
-                " m";
+        return "Chiamata: { " +
+                " Numero Chiamato : " + numChiamato +
+                ", Durata della chiamata : " + durata +
+                " m" + " }";
     }
 }
