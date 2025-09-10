@@ -1,2 +1,1 @@
-# U4-W1-D3
-
+Esercizi sulla programmazione OOP (linguaggio Java)
