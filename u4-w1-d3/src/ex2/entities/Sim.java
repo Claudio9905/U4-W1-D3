@@ -8,13 +8,15 @@ public class Sim {
     private int numTelefono;
     private double creditoDisponibile;
     private Chiamata[] chiamate;
+    private int chiamateInserite;
+
 
 
     //Costruttori
     public Sim(int numTelefono) {
         this.numTelefono = numTelefono;
         this.creditoDisponibile = 0;
-        this.chiamate = new Chiamata[]{};
+        this.chiamate = new Chiamata[5];
     }
 
     //Metodi

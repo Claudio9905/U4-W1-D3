@@ -18,12 +18,16 @@ public class Ex2Main {
         int durataCall = rdmDurata.nextInt(0,60);
 
         Sim cliente1 = new Sim(numTelefono);
-        Chiamata cliente1Call = new Chiamata(numTelefono, durataCall);
 
         cliente1.setCreditoDisponibile(credito);
-        for (int i = 0; i < 5; i++){
-        cliente1.setChiamate(new Chiamata[]{cliente1Call});
-        }
+
+        Chiamata[] cliente1Call = {new Chiamata(numTelefono, durataCall),
+                new Chiamata(numTelefono, durataCall),
+                new Chiamata(numTelefono, durataCall),
+                new Chiamata(numTelefono, durataCall),
+                new Chiamata(numTelefono, durataCall)};
+
+        cliente1.setChiamate(cliente1Call);
 
         System.out.println(cliente1);
 
